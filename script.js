@@ -1,3 +1,5 @@
+//Exercicios do GitHub: https://github.com/tiagovignatti/exercicios-javascript
+
 //VARIAVEIS E FUNÇÕES
 
 /*
@@ -149,4 +151,40 @@ for (let i = 0; i <= 10; i++) {
 
 //-----------------------------------------------------------------------------------------------------------------------
 
-//
+//Exercicios do GitHub: https://github.com/gabrieldarezzo/helpjs-ravi
+
+//1 - Faça uma mensagem de 'Olá Mundo'.
+
+
+/*
+alert('Olá mundo');
+*/
+
+//2 - Faça essa mensagem em um arquivo javascript externo e chame ela
+
+//Ex: my_script.js sndo chamado pelo index html através do: <script src="my_script.js"></script>
+
+//3 - Faça uma saída de soma de 2 inteiros.
+
+//alert(2 + 2);
+
+//4 - No HTML Crie: 1 - Campo/Input do tipo text para preencher o nome completo. 2 - Botão com o texto: 'Exibir Nome' e ao clicar neste botão é exibido um alert com o valor do campo nome completo, ex: ' O Nome Completo é: "xxxx". '
+
+/*
+function NameExibition(){
+    const input = document.getElementById('input').value
+alert(input);
+};
+*/
+
+//5 - exiba a quantidade de letras que possuem o texto inserido ao clicar no botão. Exemplos de entrada e saida: 'Gabriel' = 7
+
+/*
+const nome1 = "Gabriel";
+const nome2 = "Rebeca Santana Rodrigues";
+const nome3 = "Guihermino";
+
+alert(nome1.length);
+alert(nome2.length);
+alert(nome3.length);
+*/
