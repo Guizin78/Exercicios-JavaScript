@@ -188,3 +188,14 @@ alert(nome1.length);
 alert(nome2.length);
 alert(nome3.length);
 */
+
+/*
+6- tROQUE AS CORES DE UM BOTAO SOMENT COM JAVASCRIPT:
+
+let botao = document.getElementById("botao1");
+
+botao.onclick = function(){
+    botao.style.backgroundColor = "#111"
+    botao.style.color = "#FFF"
+}
+    */
